@@ -1,0 +1,25 @@
+﻿String
+
+Like (lk)
+Equals (eq)
+StartsWith (sw)
+EndsWith (ew)
+
+integer,
+decimal,
+float
+datetime
+
+Equals (eq)
+GreaterThan (gt)
+LessThan (lt)
+
+integer
+datetime,
+In(contains) (in)
+
+Roast Potato
+
+Roast = Client side request for data
+Potato = Server Side Data package (the list that takes a recipe)
+Recipe = Instructions on how to roast the potato

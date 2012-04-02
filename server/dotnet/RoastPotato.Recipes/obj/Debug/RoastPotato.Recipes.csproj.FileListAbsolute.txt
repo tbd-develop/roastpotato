@@ -1,0 +1,5 @@
+H:\Development\roastpotato\server\dotnet\RoastPotato.Recipes\bin\Debug\RoastPotato.Recipes.dll
+H:\Development\roastpotato\server\dotnet\RoastPotato.Recipes\bin\Debug\RoastPotato.Recipes.pdb
+H:\Development\roastpotato\server\dotnet\RoastPotato.Recipes\obj\Debug\ResolveAssemblyReference.cache
+H:\Development\roastpotato\server\dotnet\RoastPotato.Recipes\obj\Debug\RoastPotato.Recipes.dll
+H:\Development\roastpotato\server\dotnet\RoastPotato.Recipes\obj\Debug\RoastPotato.Recipes.pdb
