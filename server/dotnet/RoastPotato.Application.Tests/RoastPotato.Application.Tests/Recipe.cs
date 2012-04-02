@@ -1,11 +1,9 @@
-﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 
 namespace RoastPotato.Application.Tests
 {
-    public class Class1
+    public class Recipe
     {
+        public IEnumerable<string> Instructions { get; set; }
     }
 }

@@ -1,0 +1,8 @@
+H:\Development\roastpotato\server\dotnet\RoastPotato.Application.Tests\RoastPotato.Application.Tests\obj\Debug\ResolveAssemblyReference.cache
+H:\Development\roastpotato\server\dotnet\RoastPotato.Application.Tests\RoastPotato.Application.Tests\bin\Debug\RoastPotato.Application.Tests.dll
+H:\Development\roastpotato\server\dotnet\RoastPotato.Application.Tests\RoastPotato.Application.Tests\bin\Debug\RoastPotato.Application.Tests.pdb
+H:\Development\roastpotato\server\dotnet\RoastPotato.Application.Tests\RoastPotato.Application.Tests\bin\Debug\nunit.framework.dll
+H:\Development\roastpotato\server\dotnet\RoastPotato.Application.Tests\RoastPotato.Application.Tests\bin\Debug\nunit.framework.xml
+H:\Development\roastpotato\server\dotnet\RoastPotato.Application.Tests\RoastPotato.Application.Tests\obj\Debug\RoastPotato.Application.Tests.dll
+H:\Development\roastpotato\server\dotnet\RoastPotato.Application.Tests\RoastPotato.Application.Tests\obj\Debug\RoastPotato.Application.Tests.pdb
+H:\Development\roastpotato\server\dotnet\RoastPotato.Application.Tests\RoastPotato.Application.Tests\bin\Debug\LinqKit.dll

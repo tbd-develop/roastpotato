@@ -1,0 +1,20 @@
+﻿String
+
+Like (lk)
+Equals (eq)
+StartsWith (sw)
+EndsWith (ew)
+
+integer,
+decimal,
+float
+datetime
+
+Equals (eq)
+GreaterThan (gt)
+LessThan (lt)
+
+integer
+datetime,
+In(contains) (in)
+
