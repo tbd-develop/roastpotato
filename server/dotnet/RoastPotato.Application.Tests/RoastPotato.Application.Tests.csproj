@@ -50,14 +50,17 @@
     <Compile Include="ConcerningFollowingRecipeInstructions\When_performing_between_operation.cs" />
     <Compile Include="ConcerningFollowingRecipeInstructions\When_performing_greater_than_or_less_than_operations.cs" />
     <Compile Include="ConcerningFollowingRecipeInstructions\When_performing_string_only_operations.cs" />
+    <Compile Include="ConcerningInstructionSet\When_producing_set_from_and_expression.cs" />
+    <Compile Include="ConcerningInstructionSet\When_producing_set_from_multiple_expressions.cs" />
+    <Compile Include="ConcerningInstructionSet\When_producing_set_from_single_expression.cs" />
     <Compile Include="ConcerningOperations\When_requesting.cs" />
+    <Compile Include="ConcerningRecipes\When_given_instructions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositories\SampleRepository.cs" />
     <Compile Include="SampleData.cs" />
     <Compile Include="ConcerningGettingPropertyInfo\When_consructing_expression_from_string.cs" />
     <Compile Include="ConcerningFollowingRecipeInstructions\When_performing_contains_operations.cs" />
     <Compile Include="ConcerningFollowingRecipeInstructions\When_performing_equals_operations.cs" />
-    <Compile Include="When_requesting_roast.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

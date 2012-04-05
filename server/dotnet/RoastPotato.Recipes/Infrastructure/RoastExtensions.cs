@@ -1,17 +1,13 @@
 using System.Collections.Generic;
+using System.Linq;
 
 namespace RoastPotato.Recipes.Infrastructure
 {
     public static class RoastExtensions
     {
-        public static IEnumerable<T> Roast<T>(this IEnumerable<T> set, Recipe recipe)
+        public static IEnumerable<T> Roast<T>(this IEnumerable<T> set, Recipe<T> recipe)
         {
-            foreach ( var instruction in recipe.Instructions )
-            {
-                    
-            }
-
-            return set;
+            return set.Where( recipe.Prepare( ) );
         }
     }
 }

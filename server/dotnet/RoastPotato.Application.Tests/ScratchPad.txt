@@ -1,25 +1,21 @@
-﻿String
+﻿Roast Potato
 
-Like (lk)
-Equals (eq)
-StartsWith (sw)
-EndsWith (ew)
-
-integer,
-decimal,
-float
-datetime
-
-Equals (eq)
-GreaterThan (gt)
-LessThan (lt)
-
-integer
-datetime,
-In(contains) (in)
-
-Roast Potato
-
-Roast = Client side request for data
+Roast = Client/Server side request for data
 Potato = Server Side Data package (the list that takes a recipe)
 Recipe = Instructions on how to roast the potato
+
+/query/users
+public ActionResult Users(string instr) 
+{
+	Recipe r = new Recipe(instr);
+
+	return Json(repository.Users.Roast(r));
+}
+
+Recipe ..
+
+(Name eq 'Terry' and Value lt '20') or (Name eq 'Bob' or Name eq 'Terri')
+------------- lhs --------------     ------------- rhs ----------------
+ --------lhs-----------rhs------     ----- lhs -------------rhs--------
+
+

@@ -40,6 +40,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Infrastructure\InstructionSet.cs" />
+    <Compile Include="Infrastructure\ParameterRebinder.cs" />
     <Compile Include="Infrastructure\RecipeExtensions.cs" />
     <Compile Include="Infrastructure\RoastExtensions.cs" />
     <Compile Include="Operations\BetweenOperation.cs" />

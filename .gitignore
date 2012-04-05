@@ -1,0 +1,9 @@
+[Bb]in
+[Oo]bj
+obj/
+bin/
+_Resharper*/
+*/.idea/*
+*.suo
+*.user
+*.log
