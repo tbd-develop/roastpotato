@@ -1,6 +1,8 @@
 ﻿using System;
+using System.Linq;
 using System.Linq.Expressions;
 using System.Reflection;
+using System.Text;
 
 namespace RoastPotato.Recipes.Operations
 {
@@ -16,7 +18,12 @@ namespace RoastPotato.Recipes.Operations
 
             return
                 Expression.Lambda<Func<TEntity, bool>>(
-                    Expression.Call( Property, methodToCall, Expression.Constant( value, typeof( string ) ) ), Param );
+                    Expression.Call( Property, methodToCall, Expression.Constant( value ) ), Param );
+        }
+
+        public override dynamic GetCorrectParameterList(string[ ] collection)
+        {
+            return collection.First( );
         }
     }
 }
